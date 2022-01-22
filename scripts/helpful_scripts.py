@@ -23,6 +23,3 @@ def deploy_mocks():
     if len(MockV3Aggregator) <= 0:
         MockV3Aggregator.deploy(DECIMALS, STARTING_PRICE, {"from": get_account()})
     print("Mocks Deployed!")
-
-
-d

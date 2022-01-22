@@ -19,3 +19,4 @@ def withdraw():
 
 def main():
     fund()
+    withdraw()

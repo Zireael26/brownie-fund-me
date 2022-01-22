@@ -31,6 +31,7 @@ def deploy_fund_me():
     usd_exchange_rate = fund_me.getPrice()
     print(type(usd_exchange_rate))
     print("USD Exchange Rate: " + str(usd_exchange_rate))
+    return fund_me
 
 
 def main():

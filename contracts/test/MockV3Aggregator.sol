@@ -97,6 +97,3 @@ contract MockV3Aggregator is AggregatorV2V3Interface {
         return "v0.6/tests/MockV3Aggregator.sol";
     }
 }
-
-// MockOracle
-// Function signatures, event signatures, log topics

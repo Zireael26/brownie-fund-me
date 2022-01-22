@@ -8,6 +8,8 @@ networks:
     verify: True
   developemnt:
     verify: False
+  ganache-local:
+    verify: False
 
 dependencies:
 #   - <organization/repo>@<version>
